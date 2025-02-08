@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/logo.png">
+    <title>BOARDRIDERS</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <section class="hd-sect">
+            <div class="container header-top">
+                <div class="yordam-container">
+                    <img src="./images/lokatsiya.png" alt="lokatsiya" class="lokatsiya" width="14" height="20">
+                    <label for="region" class="region-label">Ваш регион доставки:</label>
+                    <select id="region">
+                        <option value="moskva">Москва</option>
+                        <option value="moskva">Петербург</option>
+                    </select>
+                    <a href="#" class="linki">Магазины</a>
+                    <a href="#" class="linki">Помощь</a>
+                    <a href="#" class="linki">Блоги</a>
+                </div>
+                <div class="yetkazish-container">
+                    <img src="./images/fura.png" alt="fura" class="fura" width="24" height="24">
+                    <a href="#" class="linki">Бесплатная доставка *</a>
+                    <img src="./images/Vector.png" alt="vector" class="vector" width="20" height="18">
+                    <a href="#" class="linki">Оплата при получении</a>
+                    <img src="./images/tolovni qaytarish.png" alt="tolov-qaytarish" class="tolov-qaytarish" width="20"
+                        height="20">
+                    <a href="#" class="linki">Возврат в течение 14 дней</a>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------------ -->
+        <div class="container header-mid">
+            <nav class="navbar">
+                <a href="#" class="nav-link" onclick="activateTab(this, 'men')">Мужчинам</a>
+                <a href="#" class="nav-link" onclick="activateTab(this, 'women')">Женщинам</a>
+                <a href="#" class="nav-link" onclick="activateTab(this,'children')">Детям</a>
+            </nav>
+            <img src="./images/big logo.png" alt="big-logo" class="big-logo" width="242" height="50">
+            <div class="right">
+                <div class="l">
+                    <button class="icons-btn"><span class="material-icons">person</span> ВОЙТИ</button>
+                </div>
+                <div class="l">
+                    <button class="icons-btn"><span class="material-icons">star</span> ИЗБРАННОЕ</button>
+                </div>
+                <div class="l">
+                    <button class="icons-btn"><span class="material-icons">shopping_cart</span> КОРЗИНА</button>
+                </div>
+                <div class="l">
+                    <button class="icons-btn"><span class="material-icons">search</span> ПОИСК</button>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------- -->
+        <section class="hb-sect">
+            <div class="container header-bottom">
+                <nav class="nav1">
+                    <a href="#" class="header-links" onclick="setActive(this)">Новинки</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Сноуборд</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Лыжи</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Скейт</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Лонгборд</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Вейкборд</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Серф</a>
+                    <a href="#" class="header-links" onclick="setActive(this)
+                    ">Sup</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Одежда</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Обувь</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Аксессуары</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Бренды</a>
+                    <a href="#" class="header-links" onclick="setActive(this)">Распродажа</a>
+                </nav>
+            </div>
+        </section>
+        <!-- ----------------------- -->
+    </header>
+
+    <main>
+        <!-- ---------------------- -->
+        <section class="section1">
+            <div class="container hero-container">
+                <p class="hero-nav">Главная / Мужчинам / Сноуборд</p>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="./images/Rectangle 65.png" alt="" class="">
+                        <h3 class="images-info">Название акции</h3>
+                    </div>
+                    <div class="blog">
+                        <img src="./images/Rectangle 58.png" alt="" class="">
+                        <h3 class="images-info">Название акции</h3>
+                    </div>
+                    <div class="blog">
+                        <img src="./images/Rectangle 84.png" alt="" class="">
+                        <h3 class="images-info">Название акции</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------- -->
+        <section class="section2">
+            <div class="container gear-container">
+                <div class="sets">
+                    <button class="sets-btn">
+                        < </button>
+                            <div class="set">
+                                <img src="./images/image 9.png" alt="" class="">
+                                <h3 class="set-title">Сноуборды</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 60.png" alt="" class="">
+                                <h3 class="set-title">Крепления</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 61.png" alt="" class="">
+                                <h3 class="set-title">Обувь</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 62.png" alt="" class="">
+                                <h3 class="set-title">Наборы</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 63.png" alt="" class="">
+                                <h3 class="set-title">Куртки</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 64.png" alt="" class="">
+                                <h3 class="set-title">Штаны</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 65.png" alt="" class="">
+                                <h3 class="set-title">Шлемы</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 66.png" alt="" class="">
+                                <h3 class="set-title">Очки</h3>
+                            </div>
+                            <div class="set">
+                                <img src="./images/image 67.png" alt="" class="">
+                                <h3 class="set-title">Перчатки</h3>
+                            </div>
+                            <button class="sets-btn"> > </button>
+                </div>
+            </div>
+        </section>
+        <!-- ---------- -->
+        <section class="section3">
+            <div class="container boards-container">
+                <h1 class="boards-title">Сноуборд</h1>
+                <div class="tiles">
+                    <div class="tile">
+                        <h3 class="tile-title">Подбери борд</h3>
+                    </div>
+                    <div class="tile2">
+                        <h1 class="number">1</h1>
+                        <div class="vazn">
+                            <h4 class="">Укажите свой рост и вес</h4>
+                            <u>Рост: 190 см</u> <u>Вес: 300кг</u>
+                        </div>
+                        <img src="./images/grayhuman.png" alt="" class="">
+                    </div>
+                    <div class="tile2">
+                        <h1 class="number">2</h1>
+                        <div class="vazn">
+                            <h4 class="">Где планируете катать</h4>
+                            <u>Укажите место</u>
+                        </div>
+                        <img src="./images/mountain.png" alt="" class="">
+                    </div>
+                    <div class="tile2">
+                        <h1 class="number">3</h1>
+                        <div class="vazn">
+                            <h4 class="">Ваш уровень катании</h4>
+                            <u>Укажите ваш уровень</u>
+                        </div>
+                        <img src="./images/daraja.png" alt="" class="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------- -->
+        <section class="section4">
+            <div class="container select-container">
+                <div class="flex">
+                    <select class="select1" id="" aria-placeholder="показать фильтры">
+                        <option value="" disabled selected>показать фильтры</option>
+                        <option value="">Скрыт</option>
+                        <option value="">Открыт</option>
+                    </select>
+                </div>
+                <div class="flex">
+                    <label for="select2">Сортировать по:</label>
+                    <select class="select2" id="select2">
+                        <option value="" disabled selected>показать фильтры</option>
+                        <option value="">Новинки</option>
+                        <option value="">старинки</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container shop-container">
+                <div class="boxes">
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container shop-container">
+                <div class="boxes">
+                    <div class="img-ads">
+                        <img src="./images/Group 371.png" alt="" class="">
+                        <a href="#" class="img-link">Смотреть зимний лукбук от DC Shoes >></a>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container shop-container">
+                <div class="boxes">
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (3).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container shop-container">
+                <div class="boxes">
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                    <div class="img-ads">
+                        <img src="./images/Group 378.png" alt="" class="">
+                        <a href="#" class="img-link">Смотреть зимний лукбук от DC Shoes >></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container shop-container">
+                <div class="boxes">
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (3).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (3).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="container shop-container">
+                <div class="boxes">
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (3).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (3).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (1).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <h3 class="boxx1-prise">34392 ₽</h3>
+                    </div>
+                    <div class="boxx1">
+                        <div class="star" onclick="toggleStar(this)">★</div>
+                        <img src="./images/image 9 (2).png" alt="" class="boxx1-img">
+                        <h3 class="boxx1-title">LIB TECH</h3>
+                        <p class="boxx1-text">Мужской Сноуборд</p>
+                        <div class="prices">
+                            <del>34392 ₽</del>
+                            <h3 class="boxx1-price">17392 ₽</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section6">
+            <div class="pagination">
+                <button id="prevBtn" onclick="changePage(-1)">❮</button>
+                <div id="pageNumbers" style="display: flex; gap: 5px;"></div>
+                <button id="nextBtn" onclick="changePage(1)">❯</button>
+            </div>
+            <a href="#" class="pagination-link">Показать больше</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-top">
+            <img src="./images/logo.png" alt="" class="" width="57" height="55">
+            <h1 class="logo-title">BOARDRIDERS</h1>
+            <div class="email-container">
+                <input type="email" class="email-input" placeholder="Подпишись на рассылку и получи  -10%  скидку"
+                    required>
+                <button type="submit" class="send-button" aria-label="Send">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M2 21l21-9-21-9v7l15 2-15 2v7z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="container footer-mid">
+            <div class="">
+                <h3 class="mid-title">Доступ к ранним релизам в приложении </h3>
+                <div class="box1">
+                    <div class="yuklab-olish">
+                        <a href="https://www.apple.com/app-store/" target="_blank" class="">
+                            <img src="./images/appstore.png" alt="" class="">
+                        </a>
+                        <a href="https://play.google.com" target="_blank" class="">
+                            <img src="./images/googleplay.png" alt="" class="">
+                        </a>
+                    </div>
+                    <img src="./images/shtrixcode.png" alt="" class="shtrixcode">
+                </div>
+            </div>
+            <div class="box2">
+                <h3 class="mid-title">Контакты</h3>
+                <div class="tel">
+                    <img src="./images/tel.png" alt="" class="">
+                    <a href="tel:8 (800) 511-74-68 " class="tell">8 (800) 511-74-68 </a>
+                </div>
+                <br>
+                <p class="text1">Бесплатная горячая линия <br>
+                    Ежедневно с 9 до 21</p>
+                <div class="tel">
+                    <img src="./images/e-mail.png" alt="" class="" width="25" height="20">
+                    <h3 class="mid-title">Контактный Email</h3>
+                </div>
+                <p class="text1">info@brd.ru</p>
+            </div>
+            <ul class="list">
+                <li class="items">
+                    <h3 class="mid-title">Помощь</h3>
+                </li>
+                <br>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Доставка</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Оплата</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Возврат</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Отзывы (2290)</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Акции и скидки</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="items">
+                    <h3 class="mid-title">Компания</h3>
+                </li>
+                <br>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Контакты</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">О boardriders</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Вакансии</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Публичная оферта</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="items">
+                    <h3 class="mid-title">Boardriders Inc.</h3>
+                </li>
+                <br>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Франчайзинг</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Quiksilver</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Roxy</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">DC Shoes</a>
+                </li>
+                <br>
+                <li class="items">
+                    <a href="#" class="footer-links">Boardriders Club</a>
+                </li>
+            </ul>
+        </div>
+        <div class="line1"></div>
+        <div class="container footer-bottom">
+            <div class="social-links">
+                <a href="https://twitter.com" target="_blank" class="fn-links"><img src="./images/twitter.png" alt=""
+                        class="">
+                </a>
+                <a href="https://facebook.com" target="_blank" class="">
+                    <img src="./images/facebook.png" alt="" class="">
+                </a>
+                <a href="https://www.twitch.tv" target="_blank" class="">
+                    <img src="./images/twitch.png" alt="" class="">
+                </a>
+                <a href="https://www.youtube.com" target="_blank" class="">
+                    <img src="./images/youtube.png" alt="" class="">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="">
+                    <img src="./images/instagram.png" alt="" class="">
+                </a>
+            </div>
+            <p class="mualliflik-huquqi">© 2020 Brd.ru. Все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
