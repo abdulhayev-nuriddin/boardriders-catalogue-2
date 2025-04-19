@@ -29,11 +29,6 @@ body {
     background-color: #000;
 }
 
-.hb-sect {
-    width: 100%;
-    background-color: #F9F9F9;
-}
-
 .header-top {
     align-items: center;
     display: flex;
